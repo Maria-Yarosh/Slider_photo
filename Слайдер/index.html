@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+    <title>Slider</title>
+</head>
+
+<body>
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <ul class="hero__nav">
+                    <li class="hero__nav-item"><a data-index="0" data-id="0" href="#">Rostov-on-Don, Admiral</a></li>
+                    <li class="hero__nav-item"><a data-index="1" data-id="1" href="#">Sochi Thieves</a></li>
+                    <li class="hero__nav-item"><a data-index="2" data-id="2" href="#">Rostov-on-Don Patriotic</a></li>
+                </ul>
+                <div class="hero__column">
+                    <div class="hero__column-info">
+                        <h1 class="title">Completed projects<img src="./images/line-title.png"></h1>
+                        <p>
+                            Only a small part of the work performed by our company is presented on the site. For 14
+                            years on in the construction market we have made happy more than 1000 families
+                        </p>
+                        <div class="hero__column-info-block">
+                            <div>
+                                <h2 class="subtitle">City:</h2>
+                                <p class="place">Rostov-on-Don LCD admiral</p>
+                                <h2 class="subtitle">Repair time:</h2>
+                                <p class="time">3.5 months</p>
+                            </div>
+                            <div>
+                                <h2 class="subtitle">apartment area:</h2>
+                                <p class="area">81 m2</p>
+                                <h2 class="subtitle">Repair Cost:</h2>
+                                <p>Upon request</p>
+                            </div>
+                        </div>
+                        <div class="hero__button">
+                            <button class="btn-arrow left" type="button"><img
+                                    src="./images/arrow-left.png"></button>
+                            <button class="btn-circle" type="button" data-index="0" data-num="0"></button>
+                            <button class="btn-circle" type="button" data-index="1" data-num="1"></button>
+                            <button class="btn-circle" type="button" data-index="2" data-num="2"></button>
+                            <button class="btn-arrow right" type="button"><img
+                                    src="./images/arrow-right.png"></button>
+                        </div>
+                    </div>
+                    <div class="hero__column-img">
+                        <!--<img class="image" src="./images/hero-img-1.jpg" alt="interior photo">-->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
