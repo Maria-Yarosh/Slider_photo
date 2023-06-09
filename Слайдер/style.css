@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Yeseva One", cursive;
+    src: url(./fonts/YesevaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+    src: url(./fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf);
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    line-height: 26.73px;
+}
+
+.hero {
+    background-color: #131313;
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 0.3);
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+a:hover, a:active, .link-active {
+    text-decoration: underline;
+    color: #E3B873;
+}
+
+.hero__nav {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    margin: 0;
+    justify-content: end;
+    padding-right: 120px;
+    padding-top: 86px;
+    padding-bottom: 45px;
+}
+
+.title {
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    color: #E3B873;
+    text-transform: uppercase;
+    max-width: 253px;
+}
+
+.subtitle {
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.hero__column {
+    display: flex;
+    gap: 1em;
+}
+
+.hero__column-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    gap: 1em;
+}
+
+.hero__column-info-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__column-img {
+    max-width: 679px;
+    min-height: 482px;
+}
+
+.btn-circle {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.btn-circle:hover, .btn-circle:active, .active {
+    background-color: #FFFFFF;
+}
+
+.btn-arrow {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.hero__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2em;
+    align-items: center;
+    padding-top: 40px;
+}
